@@ -1,0 +1,47 @@
+﻿@model SignupViewModel
+
+<div class="login-page">
+    <div class="lead">
+        <h1>Signup</h1>
+        <p>Choose how to Signup</p>
+    </div>
+    <partial name="_ValidationSummary" />
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Local Account</h2>
+                </div>
+
+                <div class="card-body">
+                    <form asp-route="Signup">
+                        <input type="hidden" asp-for="ReturnUrl" />
+
+                        <div class="form-group">
+                            <label asp-for="Username"></label>
+                            <input class="form-control" placeholder="Username" asp-for="Username" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="EmailAddress"></label>
+                            <input type="email" class="form-control" placeholder="EmailAddress" asp-for="EmailAddress" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Name"></label>
+                            <input type="text" class="form-control" placeholder="Name" asp-for="Name" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password"></label>
+                            <input type="password" class="form-control" placeholder="Password" asp-for="Password" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="RetypePassword"></label>
+                            <input type="email" class="form-control" placeholder="Retype Password" asp-for="RetypePassword" />
+                        </div>
+                        <button class="btn btn-primary" name="button" value="signup">Sign Up</button>
+                        <button class="btn btn-secondary" name="button" value="cancel">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
