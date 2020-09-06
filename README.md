@@ -8,7 +8,7 @@ The project offers the following:
 4. Support for Social Logins (Google and Facebook). Just update the ClientId and ClientSecret values in the appsettings file
 5. Customized Login page. You can add your content in the placeholder divs inside the View
 
-#IdentityServer4
+# What is IdentityServer4?
 
 IdentityServer4 is a .NET Core based framework for creating OAuth Token server. 
 The library provides the necessary functionalities for building robust and customizable TokenServers which help in separating the User session and token management while the applications can focus on their actual business logic.
