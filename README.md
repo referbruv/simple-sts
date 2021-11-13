@@ -70,6 +70,7 @@ Once the docker container starts successfully, navigate to http://localhost:5002
 
 If you face any issues or would like to drop a suggestion, ![raise an issue](https://github.com/referbruv/simple-sts/issues/new/choose)
 
+# Show me your Support
 
 Leave a Star if you find the solution useful. For more detailed articles and how-to guides, visit https://referbruv.com
 
