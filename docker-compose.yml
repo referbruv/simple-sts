@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    token-server:
+      build: 
+        context: .
+        dockerfile: 'SimpleSts.Web/Dockerfile'
+      environment:
+        "ConnectionStrings__DefaultConnection": "Data Source=YOUR_DATABASE_SERVER;Initial Catalog=YOUR_DATABASE_NAME;User Id=USER_ID;Password=PASSWORD"
+      ports:
+      - "5002:5000"

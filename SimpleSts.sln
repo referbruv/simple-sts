@@ -11,8 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSts.Contracts", "Simp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{EE3A5EDA-7CAA-42D9-93AB-509D6CC23F20}"
 	ProjectSection(SolutionItems) = preProject
-		SimpleSts.Web\.gitignore = SimpleSts.Web\.gitignore
-		SimpleSts.Web\README.md = SimpleSts.Web\README.md
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
