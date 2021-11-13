@@ -1,0 +1,19 @@
+<div class="welcome-page">
+    <h1><img src="~/icon.jpg"> Welcome to SimpleSts</h1>
+    <p>This is a simple boilerplate TokenServer built on top of <a href="https://identityserver.io/">IdentityServer4</a></p>
+    
+    <p>This solution offers the following features:</p>
+    <ol>
+        <li>Integration with Database for ClientStores and UserStores</li>
+        <li>Seed Client, ApiScopes and Users which can be changed from database</li>
+        <li>Contains auto-migration and Seeding logic which sets up the Database and adds the initial data</li>
+        <li>Support for Social Logins (Google and Facebook). Just update the ClientId and ClientSecret values in the appsettings file</li>
+        <li>Customized Login page. You can add your content in the placeholder divs inside the View</li>
+    </ol>
+    <p>If you're able to view this page, it means that the TokenServer is working fine. </p>
+    <p>
+        This TokenServer exposes a <a href="~/.well-known/openid-configuration">discovery document</a>
+        where you can find metadata and links to all the endpoints, key material, etc.
+    </p>
+    <p>Click <a href="~/diagnostics">here</a> to see the claims for your current session.</p><p>Click <a href="~/grants">here</a> to manage your stored grants.</p>
+</div>
